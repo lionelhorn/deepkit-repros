@@ -20,7 +20,7 @@ export class PostgresDatabase extends Database {
   constructor() {
     super(new PostgresDatabaseAdapter({
       host: '0.0.0.0',
-      port: 54433,
+      port: 5432,
       user: "postgres",
       password: "root"
     }), [Product]);
