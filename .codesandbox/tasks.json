@@ -17,15 +17,15 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": false
     },
     "postinstall": {
       "name": "postinstall",
       "command": "npm run postinstall",
       "runAtStart": false
     },
-    "npm run build && npm run dev": {
-      "name": "npm run build && npm run dev",
+    "start": {
+      "name": "start",
       "command": "npm run build && npm run dev",
       "runAtStart": true
     }
