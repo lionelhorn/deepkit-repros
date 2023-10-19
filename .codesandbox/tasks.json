@@ -14,9 +14,9 @@
       "command": "npm run build",
       "runAtStart": false
     },
-    "dev": {
-      "name": "dev",
-      "command": "npm run dev",
+    "start": {
+      "name": "start",
+      "command": "npm run start",
       "runAtStart": false
     },
     "postinstall": {
@@ -24,9 +24,9 @@
       "command": "npm run postinstall",
       "runAtStart": false
     },
-    "start": {
-      "name": "start",
-      "command": "npm run build && npm run dev",
+    "dev": {
+      "name": "dev",
+      "command": "npm run build && npm run start",
       "runAtStart": true
     }
   }

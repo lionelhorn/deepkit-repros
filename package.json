@@ -2,26 +2,26 @@
   "name": "@lionelhorn/deepkit-repos",
   "reflection": true,
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "commonjs",
   "scripts": {
     "build": "tsc --build tsconfig.json",
-    "dev": "node ./dist/cjs/app.js server:start",
-    "postinstall": "node ./node_modules/@deepkit/type-compiler/dist/cjs/install-transformer.js"
+    "start": "node ./dist/cjs/app.js server:start",
+    "postinstall": "deepkit-type-install"
   },
   "dependencies": {
-    "@deepkit/framework": "^1.0.1-alpha.99",
-    "@deepkit/rpc": "^1.0.1-alpha.97",
-    "@deepkit/rpc-tcp": "^1.0.1-alpha.97",
-    "faker": "^5.5.3",
-    "@deepkit/orm": "1.0.1-alpha.98",
-    "@deepkit/postgres": "^1.0.1-alpha.98"
+    "@deepkit/framework": "^1.0.1-alpha.103",
+    "@deepkit/orm": "^1.0.1-alpha.102",
+    "@deepkit/postgres": "^1.0.1-alpha.103",
+    "@deepkit/rpc": "^1.0.1-alpha.102",
+    "@deepkit/rpc-tcp": "^1.0.1-alpha.102",
+    "faker": "^5.5.3"
   },
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "@deepkit/type-compiler": "^1.0.1-alpha.102",
     "reflect-metadata": "^0.1.13",
-    "@deepkit/type-compiler": "^1.0.1-alpha.97",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0"
   }
