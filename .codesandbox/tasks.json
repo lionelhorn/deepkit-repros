@@ -26,7 +26,7 @@
     },
     "dev": {
       "name": "dev",
-      "command": "npm run build && npm run start",
+      "command": "npm run dev",
       "runAtStart": true
     }
   }
